@@ -161,7 +161,7 @@ public:
     // Перегрузка оператора постфиксного инкремента (++)
     ComplexNumber operator++(int) {
         ComplexNumber temp = *this; 
-        ++imag; 
+        imag++; 
         return temp; 
     }
 
@@ -174,7 +174,7 @@ public:
     // Перегрузка оператора постфиксного декремента (--)
     ComplexNumber operator--(int) {
         ComplexNumber temp = *this; // Сохраняем текущее значение
-        --imag; 
+        imag++; 
         return temp; 
     }
 
